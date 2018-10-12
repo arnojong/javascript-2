@@ -1,0 +1,3 @@
+@function p( $px, $parent: $wrap ) {
+	@return ( $px / $parent ) * 100%;
+}
